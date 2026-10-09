@@ -23,3 +23,9 @@ button {
     padding:10px 18px;
     border-radius:4px;
 }
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 200px;
+    float: left;
+}
