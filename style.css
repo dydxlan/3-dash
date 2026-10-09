@@ -42,7 +42,6 @@ img {
     left: 0;
     overflow-x: hidden;
     max-width: 100%;
-    height: auto;
     display: block; /* Removes unwanted default inline spacing at the bottom */
 
 }
