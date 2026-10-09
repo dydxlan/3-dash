@@ -1,0 +1,25 @@
+head {
+    font-family: 'Trebuchet MS';
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c7dce;
+    margin: 0;
+}
+section {
+    max-width: 500px;
+    margin: 60px auto;
+    background: white;
+    padding: 24px;
+    border-radius: 6px;
+}
+h1 {
+     color: #04AA6D;
+}
+button {
+    background:#ceec44;
+    color:#e40f0f;
+    border:none;
+    padding:10px 18px;
+    border-radius:4px;
+}
