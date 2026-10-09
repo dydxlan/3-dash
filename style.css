@@ -36,12 +36,12 @@ img {
     color: #e9910e;
     text-align: left;
     height: 100px;
-    width: 150px;
     position: fixed;
     top: 0;
     left: 0;
     overflow-x: hidden;
-    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     display: block; /* Removes unwanted default inline spacing at the bottom */
 
 }
