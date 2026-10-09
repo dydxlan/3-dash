@@ -52,7 +52,7 @@ img {
     cursor: pointer;
 }
 .nav-item:hover {
-    background-color: #ddd;
+    background-color: #e72f2f76;
     color: black;
 }
 .Overview {
