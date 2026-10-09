@@ -6,7 +6,7 @@ body {
     background-color: #2c7dce;
     margin: 0;
 }
-section {
+aside {
     max-width: 500px;
     margin: 60px auto;
     background: white;
@@ -23,7 +23,7 @@ button {
     padding:10px 18px;
     border-radius:4px;
 }
-.sidebar {
+#sidebar {
     background-color: #f1f1f1;
     height: 100%;
     width: 200px;
@@ -34,7 +34,7 @@ button {
     padding: 15px;
     float: left;
 }
-.sidebar a {
+#sidebar a {
     display: block;
     color: #000;
     padding: 8px 0;
