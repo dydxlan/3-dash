@@ -69,8 +69,6 @@ img {
     display: none;
     padding: 0 18px;
     overflow: hidden;
-    background-color: #e72f2f;
-    color: #d8d833;
 }
 .collapsible {
     cursor: pointer;
@@ -80,6 +78,8 @@ img {
     text-align: center;
     outline: none;
     font-size: 15px;
+    background-color: #e72f2f;
+    color: #d8d833;
 }
 .collapsible:after {
   content: '>'; /* Unicode character for "plus" sign (+) */
