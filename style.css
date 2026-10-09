@@ -68,12 +68,9 @@ img {
 .content {
     display: none;
     padding: 0 18px;
-    background-color: #f1f1f1;
     overflow: hidden;
 }
 .collapsible {
-    background-color: #4b9a68;
-    color: #858535;
     cursor: pointer;
     padding: 10px 5px;
     width: 100%;
@@ -83,13 +80,12 @@ img {
     font-size: 15px;
 }
 .collapsible:after {
-  content: 'U+003E'; /* Unicode character for "plus" sign (+) */
+  content: '>'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "U+2304"; /* Unicode character for "minus" sign (-) */
+  content: "⌄"; /* Unicode character for "minus" sign (-) */
 }
