@@ -113,4 +113,6 @@ img {
 }
 .none {
     display: none;
+    background-color: #e72f2f;
+    color: #d8d833;
 }
