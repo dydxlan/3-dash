@@ -15,12 +15,16 @@ h1 {
 }
 button {
     background:#ceec44;
-    color:#e40f0f;
+    color:#ffffff;
     border:none;
     padding:10px 18px;
     border-radius:4px;
 }
 .sidebar {
+    background: #e72f2f;
+    color: #fff;
+    padding: 10px 5px;
+    text-align: center;
     background-color: #f1f1f1;
     height: 100%;
     width: 200px;
