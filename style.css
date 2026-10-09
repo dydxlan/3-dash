@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 head {
     font-family: 'Trebuchet MS';
@@ -18,7 +20,7 @@ aside {
     background: #e72f2f;
     color: #d8d833;
     padding: 10px 5px;
-    text-align: center;
+    text-align: left;
     height: 100%;
     width: 150px;
     position: fixed;
