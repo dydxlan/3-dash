@@ -4,12 +4,13 @@
 head {
     font-family: 'Trebuchet MS';
 }
+@layer body, aside, header;
 body {
     font-family: Arial, sans-serif;
     background-color: #2c7dce;
 }
 header {
-    background: #e72f2f;
+    background: #8e2fe7;
     color: #11af56;
     padding: 10px;
     text-align: center;
@@ -20,15 +21,18 @@ aside {
     padding: 10px 5px;
     text-align: center;
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: fixed;
     top: 0;
     left: 0;
     overflow-x: hidden;
-    padding: 150px;
+    padding: 50px;
     float: left;
 }
-
+nav p {
+    margin: 10px 0;
+    cursor: pointer;
+}
 .content {
     margin-left: 220px;
     padding: 20px;
