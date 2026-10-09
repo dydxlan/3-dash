@@ -89,3 +89,15 @@ img {
 .active:after {
   content: "⌄"; /* Unicode character for "minus" sign (-) */
 }
+.button {
+    background-color: #e72f2f;
+    color: #d8d833;
+    padding: 10px 5px;
+    text-align: center;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    overflow-x: hidden;
+}   
