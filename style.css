@@ -51,8 +51,33 @@ img {
     margin: 10px 0;
     cursor: pointer;
 }
-.content {
+.nav-item:hover {
+    background-color: #ddd;
+    color: black;
+}
+.Overview {
     margin-left: 220px;
     padding: 20px;
     color:aquamarine
 }
+.Wind-farm {
+    margin-left: 220px;
+    padding: 20px;
+    color:aquamarine
+}
+.content {
+    display: none;
+    padding: 0 18px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.collapsible {
+    background-color: #4b9a68;
+    color: #858535;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
