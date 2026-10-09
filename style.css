@@ -100,4 +100,17 @@ img {
     top: 100px;
     left: 0;
     overflow-x: hidden;
-}   
+}  
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #e72f2f;
+    color: #d8d833;
+    padding: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
