@@ -31,7 +31,7 @@ aside {
     overflow-x: hidden;
     float: left;
 }
-box1{
+img {
     background: #9a2b7b;
     color: #e9910e;
     padding: 10px 5px;
@@ -42,6 +42,9 @@ box1{
     top: 0;
     left: 0;
     overflow-x: hidden;
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes unwanted default inline spacing at the bottom */
 
 }
 nav {
