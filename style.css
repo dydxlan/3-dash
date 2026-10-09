@@ -20,15 +20,14 @@ aside {
     padding: 10px 5px;
     text-align: center;
     height: 100%;
-    width: 50px;
+    width: 150px;
     position: fixed;
     top: 100px;
     left: 0;
     overflow-x: hidden;
-    padding: 10px;
     float: left;
 }
-nav p {
+nav {
     margin: 10px 0;
     cursor: pointer;
 }
