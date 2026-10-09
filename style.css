@@ -16,6 +16,7 @@ header {
     color: #11af56;
     text-align: center;
     height: 100px;
+    width: 100%;
 }
 aside {
     background: #e72f2f;
@@ -26,6 +27,19 @@ aside {
     width: 150px;
     position: fixed;
     top: 100px;
+    left: 0;
+    overflow-x: hidden;
+    float: left;
+}
+box1{
+    background: #9a2b7b;
+    color: #e9910e;
+    padding: 10px 5px;
+    text-align: left;
+    height: 100px;
+    width: 150px;
+    position: fixed;
+    top: 0;
     left: 0;
     overflow-x: hidden;
     float: left;
