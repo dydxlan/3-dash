@@ -109,6 +109,7 @@ nav button {
     background-color: #e72f2f;
     color: #d8d833;*/
 
+    border: none;
     text-align: center;
     outline: none;    
     display: block;      /* Forces each link onto a new row */
