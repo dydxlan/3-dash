@@ -9,6 +9,7 @@ head {
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     background-color: #175898;
 }
 header {
@@ -110,7 +111,7 @@ nav button {
     color: #d8d833;*/
 
     width: 100%;
-    border: none;
+    border: none;   
     text-align: center;
     outline: none;    
     display: block;      /* Forces each link onto a new row */
@@ -118,7 +119,10 @@ nav button {
     text-decoration: none; /* Optional: removes the underline */
     margin: 10px 0;
     cursor: pointer;
+    background-color: #e72f2f;
     color: #d8d833;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 .collapsible:after {
   content: '>'; /* Unicode character for "plus" sign (+) */
