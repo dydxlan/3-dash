@@ -55,7 +55,17 @@ img {
     background-color: #e72f2f76;
     color: black;
 }
+.Main {
+    margin-left: 220px;
+    padding: 20px;
+    color:aquamarine
+}
 .Overview {
+    margin-left: 220px;
+    padding: 20px;
+    color:aquamarine
+}
+.Anomalies {
     margin-left: 220px;
     padding: 20px;
     color:aquamarine
