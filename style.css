@@ -16,7 +16,7 @@ header {
     color: #11af56;
     text-align: center;
     height: 100px;
-    width: 80%;
+    width: 100px,max-content;
     z-index: 1;
 }
 aside {
