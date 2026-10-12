@@ -9,3 +9,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
+
+    <img>
+        <img src="logo.png" alt="Logo" class="logo">
+</img>
+    <header>
+        <h1>top area</h1>
+        <p>top text</p>
+    </header>
+    <aside>
+        <nav>              
+            <a href="html pages/overview.html" class="nav-item">Overview</a>
+            <a href="html pages/wind-farm.html" class="nav-item">Wind Farm</a>
+            <a href="html pages/anomalies.html" class="nav-item">Anomalies</a>
+            <button type="button" class="collapsible">Countries</button>
+            <div class="content">
+                <p>Country 1</p>
+                <p>Country 2</p>
+                <p>Country 3</p>
+            </div>
+            <p class="nav-item">Settings</p>                
+        </nav>
+    </aside>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
+<body>
+    <div class="Wind-farm">
+        <h1>Wind Farm</h1>
+        <p>This is the wind farm page.</p>
+    </div>
+</body>
