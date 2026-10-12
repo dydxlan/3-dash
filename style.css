@@ -55,6 +55,11 @@ img {
     background-color: #e72f2f76;
     color: black;
 }
+nav a {
+    display: block;      /* Forces each link onto a new row */
+    padding: 8px 0;      /* Adds space above and below each link so they aren't cramped */
+    text-decoration: none; /* Optional: removes the underline */
+}
 .Main {
     margin-left: 220px;
     padding: 20px;
