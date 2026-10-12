@@ -47,19 +47,22 @@ img {
     display: block; /* Removes unwanted default inline spacing at the bottom */
 
 }
-.nav-item {
+/*.nav-item {
     margin: 10px 0;
     cursor: pointer;
     color: #d8d833;
-}
+}*/
 .nav-item:hover {
-    background-color: #e72f2f76;
+    background-color: #fffb00a7;
     color: black;
 }
 nav a {
     display: block;      /* Forces each link onto a new row */
     padding: 8px 0;      /* Adds space above and below each link so they aren't cramped */
     text-decoration: none; /* Optional: removes the underline */
+    margin: 10px 0;
+    cursor: pointer;
+    color: #d8d833;
 }
 .Main {
     margin-left: 220px;
