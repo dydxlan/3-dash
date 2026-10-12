@@ -57,6 +57,10 @@ img {
     background-color: #fffb00a7;
     color: black;
 }
+.collapsible:hover {
+background-color: #fffb00a7;
+color: black;
+}
 nav a {
     display: block;      /* Forces each link onto a new row */
     padding: 8px 0;      /* Adds space above and below each link so they aren't cramped */
@@ -132,5 +136,5 @@ nav button {
 }
 
 .active:after {
-  content: "⌄"; /* Unicode character for "minus" sign (-) */
+  content: "v"; /* Unicode character for "minus" sign (-) */
 }
