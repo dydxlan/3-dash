@@ -59,7 +59,7 @@ img {
 }
 nav a {
     display: block;      /* Forces each link onto a new row */
-    padding: 8px 0;      /* Adds space above and below each link so they aren't cramped */
+    /*padding: 8px 0;      /* Adds space above and below each link so they aren't cramped */
     text-decoration: none; /* Optional: removes the underline */
     margin: 10px 0;
     cursor: pointer;
